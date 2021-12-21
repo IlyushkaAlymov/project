@@ -1,0 +1,41 @@
+.toy-item {
+    text-decoration: none;
+    color: white;
+    width: 285px;
+    height: 300px;
+    background-color: rgb(36, 37, 41);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.toy-item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.toy-item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toy-item__genre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toy-item__details {
+    padding: 10px 20px;
+}
+
+.toy-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.toy-item__buy {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}

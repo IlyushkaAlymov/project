@@ -1,0 +1,6 @@
+.home-page {
+    margin-left: 45px;
+    /*justify-content: space-evenly;*/
+    display: flex;
+    flex-wrap: wrap;
+}

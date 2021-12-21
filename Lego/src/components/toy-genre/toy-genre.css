@@ -1,0 +1,10 @@
+.toy-genre {
+    background-color: rgb(61, 103, 95);
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.toy-genre:not(:last-child) {
+    margin-right: 7px;
+}
